@@ -1,0 +1,43 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="archive_facility">VITO</MDI>
+    <MDI key="Conventions">CF-1.6</MDI>
+    <MDI key="copyright">Copernicus Service information 2021</MDI>
+    <MDI key="history">2021-08-16 -- Custom order</MDI>
+    <MDI key="identifier">urn:cgls:global:fcover300_v1_333m:FCOVER300-RT0_202108100000_CUSTOM_OLCI_V1.1.2</MDI>
+    <MDI key="institution">VITO NV</MDI>
+    <MDI key="long_name">Fraction of green Vegetation Cover</MDI>
+    <MDI key="orbit_type">LEO</MDI>
+    <MDI key="parent_identifier">urn:cgls:global:fcover300_v1_333m</MDI>
+    <MDI key="platform">Sentinel-3</MDI>
+    <MDI key="processing_level">L3</MDI>
+    <MDI key="processing_mode">Near Real Time</MDI>
+    <MDI key="product_version">V1.1.2</MDI>
+    <MDI key="references">httpss://land.copernicus.eu/global/products/fcover</MDI>
+    <MDI key="region_name">CUSTOM</MDI>
+    <MDI key="sensor">OLCI</MDI>
+    <MDI key="source">Derived from EO satellite imagery</MDI>
+    <MDI key="time_coverage_end">2021-08-10T23:59:59Z</MDI>
+    <MDI key="time_coverage_start">2021-01-12T00:00:00Z</MDI>
+    <MDI key="title">10-daily Fraction of Vegetation Cover 333M: CUSTOM 2021-08-10T00:00:00Z</MDI>
+    <MDI key="_NCProperties">version=1|netcdflibversion=4.4.1.1|hdf5libversion=1.8.18</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Scale>0.004</Scale>
+    <Metadata>
+      <MDI key="add_offset">0.0</MDI>
+      <MDI key="grid_mapping">crs</MDI>
+      <MDI key="long_name">Fraction of green Vegetation Cover 333m</MDI>
+      <MDI key="missing_value">255</MDI>
+      <MDI key="scale_factor">0.004</MDI>
+      <MDI key="standard_name">vegetation_area_fraction</MDI>
+      <MDI key="STATISTICS_MAXIMUM">250</MDI>
+      <MDI key="STATISTICS_MEAN">235.8895368717</MDI>
+      <MDI key="STATISTICS_MINIMUM">62</MDI>
+      <MDI key="STATISTICS_STDDEV">18.556647416679</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">93.61</MDI>
+      <MDI key="valid_range">[  0 250]</MDI>
+      <MDI key="_FillValue">255</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
